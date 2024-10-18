@@ -13,7 +13,7 @@ reading() { read -p "$(red "$1")" "$2"; }
 export LC_ALL=C
 USERNAME=$(whoami)
 HOSTNAME=$(hostname)
-export UUID=${UUID:-'bc97f674-c578-4940-9234-0a1da46041b9'}
+export UUID=${UUID:-'97246d28-aee0-4c24-9842-792180d69338'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
@@ -421,10 +421,8 @@ cat list.txt
 purple "\n$WORKDIR/list.txt saved successfully"
 purple "Running done!"
 yellow "Serv00|ct8老王sing-box一键四协议安装脚本(vmess-ws|vmess-ws-tls(argo)|hysteria2|tuic)\n"
-echo -e "${green}issues反馈：${re}${yellow}https://github.com/eooce/Sing-box/issues${re}\n"
-echo -e "${green}反馈论坛：${re}${yellow}https://bbs.vps8.me${re}\n"
-echo -e "${green}TG反馈群组：${re}${yellow}https://t.me/vps888${re}\n"
-purple "转载请著名出处，请勿滥用\n"
+echo -e "${green}TG联系组：${re}${yellow}https://t.me/zelaomao${re}\n"
+purple "版权所有盗版必究\n"
 sleep 3 
 rm -rf boot.log config.json sb.log core tunnel.yml tunnel.json fake_useragent_0.2.0.json
 
